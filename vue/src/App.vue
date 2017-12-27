@@ -1,5 +1,5 @@
 <template>
-<div id="app">
+<div id='app'>
   <router-view></router-view>
 </div>
 </template>
@@ -17,9 +17,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;*/
 }
-/*body, body *{ margin: 0 }
+body, body *{ margin:0 }
 body{
-  padding: 0;
-  border: 1px red solid;
-}*/
+  padding:0;
+  overflow:auto;
+  background-color:#f7f7f7
+}
+body *{
+  font-family:'Avenir',Helvetica,Arial, sans-serif;
+  font-size:20px;
+  color:#4a4a4a 
+}
 </style>
