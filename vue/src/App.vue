@@ -23,9 +23,4 @@ body{
   overflow:auto;
   background-color:#f7f7f7
 }
-body *{
-  font-family:'Avenir',Helvetica,Arial, sans-serif;
-  font-size:20px;
-  color:#4a4a4a 
-}
 </style>

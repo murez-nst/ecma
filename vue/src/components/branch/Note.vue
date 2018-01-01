@@ -27,6 +27,17 @@
 </div>
 </template>
 <style scoped>
+body, body *{ margin:0 }
+body{
+  padding:0;
+  overflow:auto;
+  background-color:#f7f7f7
+}
+body *{
+  font-family:'Avenir',Helvetica,Arial, sans-serif;
+  font-size:20px;
+  color:#4a4a4a 
+}
 #main>.register{
   position:relative;
   width:90%;
@@ -94,7 +105,7 @@ let OPTIONS = {
   hour:'2-digit',
   minute:'2-digit'  
 }
-import SimpleArticle from '@/components/SimpleArticle'
+import SimpleArticle from './SimpleArticle'
 export default {
   data: function() {
     return {
