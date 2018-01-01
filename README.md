@@ -7,8 +7,9 @@ A primary repository for all my tutorials about ECMAScript
 
 Based on webpack module, just copy each of files related to its relative folder.
 
-### My Tutorials
+### Recent Projects
 * Responsive Remainder Notes App
+* Template - Responsive Timeline
 
 ### Author
 [Murez Nasution](https://www.facebook.com/murez.nasution)
