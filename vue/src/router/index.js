@@ -17,5 +17,10 @@ export default new Router({
       name:'Timeline',
       component:Timeline
     }
+	,{
+      path:'/pokecard',
+      name:'Main',
+      component:Main
+    }
   ]
 })
